@@ -1,0 +1,1 @@
+The original NCR incident report is included as `ncr_report.csv`. The SQLite database `atm_maintenance.db` is created automatically on first application startup and is intentionally excluded from source control. Back up the database and this CSV separately.\n

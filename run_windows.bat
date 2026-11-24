@@ -1,0 +1,1 @@
+@echo off\nif not exist .venv python -m venv .venv\ncall .venv\\Scripts\\activate\npython -m pip install --upgrade pip\npip install -r requirements.txt\nstreamlit run app.py\n

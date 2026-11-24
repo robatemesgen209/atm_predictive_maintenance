@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: atm-sentinel
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
+    plan: starter
+    disk:
+      name: atm-sentinel-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
