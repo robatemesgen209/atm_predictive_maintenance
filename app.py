@@ -37,7 +37,7 @@ def login_screen():
     st.markdown("<br><br>",unsafe_allow_html=True)
     left,mid,right=st.columns([1,1.15,1])
     with mid:
-        st.markdown('<div class="hero"><h1>🏧 ATM Sentinel</h1><p>Predictive maintenance • Incident intelligence • District operations</p></div>',unsafe_allow_html=True)
+        st.markdown('<div class="hero"><h1>🏧 ATM Sentinel</h1><p>Predictive maintenance • Incident intelligence • District Wise operations</p></div>',unsafe_allow_html=True)
         if user_count()==0:
             st.subheader("Create the first administrator")
             st.info("First-run setup: create your administrator account. Do this only on a trusted deployment.")
